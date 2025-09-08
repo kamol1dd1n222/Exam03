@@ -3,8 +3,8 @@ class Time:
         self.hour = hour
         self.minute = minute
 
-    def __lt__(self):
-        
+    def __lt__(self,other:class):
+        pass        
 
 
 t1 = Time(10, 30)
